@@ -35,7 +35,7 @@ function Calculate(){
             document.getElementById("obtain").innerHTML = obtain;
     
             var percent = obtain/550*100;
-            document.getElementById("percent").innerHTML = percent;
+            document.getElementById("percent").innerHTML = Math.floor(percent).toFixed(2);
     
             var stdName = student
             document.getElementById("stdName").innerText = student;
