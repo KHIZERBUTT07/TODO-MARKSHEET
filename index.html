@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADING SYSTEM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="student-name">
+                <label>STUDENT NAME</label>
+                <input id="student-name" type="text" placeholder="Enter Student Name">
+            </div>
+            <div class="book1">
+                <label>COMPUTER</label>
+                <input id="bookone" type="number" placeholder="Enter your Marks">
+            </div>
+            <div class="book2">
+                <label>MATHS</label>
+                <input id="booktwo" type="number" placeholder="Enter your Marks">
+            </div>
+            <div class="book3">
+                <label>ENGLISH</label>
+                <input id="bookthree" type="number" placeholder="Enter your Marks">
+            </div>
+            <div class="book4">
+                <label>PHYSICS</label>
+                <input  id="bookfour" type="number" placeholder="Enter your Marks">
+            </div>
+            <div class="book5">
+                <label>URDU</label>
+                <input id="bookfive" type="number" placeholder="Enter your Marks">
+            </div>
+            <!-- <div class="book6">
+                <label>CHEMISTRY</label>
+                <input id="booksix" type="number" placeholder="Enter your Marks">
+            </div> -->
+            <div class="btn">
+                <button onclick="return Calculate()">Calculate</button>
+            </div>
+        </form>
+        <div class="result-side">
+            <table>
+                <tr>
+                    <td class="rzlts">Student Name : </td>
+                    <td id="stdName" class="output"></td>
+                </tr>
+                <tr>
+                    <td class="rzlts">Total Marks :</td>
+                    <td class="output">550</td>
+                </tr>
+                <tr>
+                    <td  class="rzlts">Obt Marks :</td>
+                    <td id="obtain" class="output"></td>
+                </tr>
+                <tr>
+                    <td  class="rzlts">Percentage :</td>
+                    <td  id="percent" class="output"></td>
+                </tr>
+                <tr>
+                    <td  class="rzlts">Grade :</td>
+                    <td id="grade" class="output"></td>
+                </tr>
+                <tr>
+                    <td  class="rzlts">Remarks :</td>
+                    <td id="remarks" class="output">P/F</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
